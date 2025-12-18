@@ -3,6 +3,9 @@
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
+## Project Constitution
+Our project's core principles, standards, constraints, and success criteria are detailed in our [Project Constitution](.specify/memory/constitution.md).
+
 ## Installation
 
 ```bash

@@ -31,7 +31,11 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+- [ ] **Accuracy**: Does the plan ensure all technical content reflects real-world robotics systems?
+- [ ] **Clarity**: Is the proposed output explained step-by-step for advanced learners?
+- [ ] **Pedagogical Rigor**: Does the plan include theory, practical examples, and exercises?
+- [ ] **Consistency**: Does the plan enforce uniform terminology, style, and formatting?
+- [ ] **Safety & Ethics**: Does the plan emphasize safe and responsible robotics practices?
 
 ## Project Structure
 

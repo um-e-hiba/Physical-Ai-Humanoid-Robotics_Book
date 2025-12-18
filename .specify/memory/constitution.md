@@ -1,55 +1,62 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+Sync Impact Report:
+- Version change: 0.0.0 → 1.0.0
+- List of modified principles: Principles defined and populated from user input.
+- Added sections: "Key Standards", "Constraints", "Success Criteria"
+- Removed sections: None
+- Templates requiring updates:
+  - ✅ .specify/templates/plan-template.md
+  - ✅ .specify/templates/spec-template.md
+  - ✅ .specify/templates/tasks-template.md
+  - ✅ README.md
+  - ✅ docs/intro.md
+- Follow-up TODOs: None
+-->
+# Physical AI & Humanoid Robotics Textbook Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Accuracy
+All technical content must reflect real-world robotics, ROS2, Isaac Sim, Gazebo, Unity, and VLA systems.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. Clarity
+Explain concepts step-by-step for advanced learners and engineers.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Pedagogical Rigor
+Chapters include theory, practical examples, and exercises.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. Consistency
+Terminology, style, and formatting are uniform across chapters.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### V. Safety & Ethics
+Emphasize safe and responsible robotics practices in all hands-on instructions.
 
-### [PRINCIPLE_6_NAME]
+## Key Standards
 
+- **Chapter structure**: Title → Executive Summary → Learning Objectives → Conceptual Overview → Deep Technical Explanation → Practical Workflow → Case Studies → Exercises → Summary → Glossary → References
+- **Markdown formatting**: H1 for chapters, H2/H3 for sections, fenced code blocks for code/commands.
+- **Commands**: Valid ROS2, Python, Bash, or shell syntax.
+- **Diagrams**: ASCII or textual conceptual diagrams where necessary.
+- **References**: Authoritative sources only (documentation, research papers, or product specs).
+- **Writing style**: Professional, human-like, precise, and instructional.
 
-[PRINCIPLE__DESCRIPTION]
+## Constraints
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+- **Target audience**: Intermediate to advanced learners in AI, robotics, or engineering.
+- **Chapters must be self-contained and render correctly in Docusaurus.**
+- **Avoid hallucinations, fictional hardware, or unsafe instructions.**
+- **Maintain continuity with prior chapters.**
+- **Chapter length**: Approx. 2,000–4,000 words depending on complexity.
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
-
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
-
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+## Success Criteria
+- Chapters follow structure and formatting rules strictly.
+- Technical content is accurate and verifiable.
+- Exercises and examples are practical and runnable in simulation or on hardware.
+- Terminology and style are consistent across the textbook.
+- Safe practices are clearly highlighted in all hands-on instructions.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+Amendments to this constitution require documentation, review, and approval from the project lead. All content contributions must adhere to these principles.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2025-12-10 | **Last Amended**: 2025-12-10
