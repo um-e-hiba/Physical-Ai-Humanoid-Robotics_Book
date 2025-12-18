@@ -1,7 +1,12 @@
 {
   "name": "physical-ai-humanoid-robotics",
+  "homepage": "https://um-e-hiba.github.io/Physical-Ai-Humanoid-Robotics_Book/",
   "version": "0.0.0",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/um-e-hiba/Physical-Ai-Humanoid-Robotics_Book.git"
+  },
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
