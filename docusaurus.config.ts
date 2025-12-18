@@ -18,7 +18,7 @@ const config: Config = {
   url: 'https://your-docusaurus-site.example.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: 'Physical-Ai-Humanoid-Robotics_Book/',
+  baseUrl: 'https://um-e-hiba.github.io/Physical-Ai-Humanoid-Robotics_Book/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -103,7 +103,7 @@ const config: Config = {
           items: [
             {
               label: 'Textbook',
-              to: '/docs/intro',
+              to: 'https://um-e-hiba.github.io/Physical-Ai-Humanoid-Robotics_Book/intro',
             },
           ],
         },
@@ -128,7 +128,7 @@ const config: Config = {
           title: 'More',
           items: [
             {
-              label: 'GitHub',
+              label: 'GitHub Repo',
               href: 'https://github.com/um-e-hiba/physical-ai-humanoid-robotics-book', // Updated
             },
             {
