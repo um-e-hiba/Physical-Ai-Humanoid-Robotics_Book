@@ -15,15 +15,15 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://um-e-hiba.github.io',
+  url: 'https://your-docusaurus-site.example.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: 'https://um-e-hiba.github.io/Physical-Ai-Humanoid-Robotics_Book/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'um-e-hiba', // Usually your GitHub org/user name.
-  projectName: 'Physical-Ai-Humanoid-Robotics_Book', // Usually your repo name.
+  organizationName: 'facebook', // Usually your GitHub org/user name.
+  projectName: 'docusaurus', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 
@@ -44,7 +44,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://um-e-hiba.github.io/Physical-Ai-Humanoid-Robotics_Book/',
+            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
@@ -103,7 +103,7 @@ const config: Config = {
           items: [
             {
               label: 'Textbook',
-              to: 'https://um-e-hiba.github.io/Physical-Ai-Humanoid-Robotics_Book/intro',
+              to: '/docs/intro',
             },
           ],
         },
@@ -128,7 +128,7 @@ const config: Config = {
           title: 'More',
           items: [
             {
-              label: 'GitHub Repo',
+              label: 'GitHub',
               href: 'https://github.com/um-e-hiba/physical-ai-humanoid-robotics-book', // Updated
             },
             {
