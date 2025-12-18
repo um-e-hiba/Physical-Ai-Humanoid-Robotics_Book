@@ -111,8 +111,8 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Github Profile',
+              href: 'https://github.com/um-e-hiba',
             },
             {
               label: 'Discord',
@@ -133,7 +133,7 @@ const config: Config = {
             },
             {
               label: 'Project Constitution',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/um-e-hiba/Physical-Ai-Humanoid-Robotics_Book/tree/main/.specify/memory',
             },
           ],
         },
